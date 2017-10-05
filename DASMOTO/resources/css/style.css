@@ -1,3 +1,4 @@
+/*Header 1 font, color and background image style definition*/
 h1 {
   font-family: Helvetica;
   font-size: 100px;
@@ -5,16 +6,18 @@ h1 {
   color: khaki;
   text-align: center;
   width: 100%;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
+  background-image: url("pattern.jpeg");
   background-size: cover;
   background-position: center;
   height: 120px;
 }
 
+/*Ordered list color definition*/
 .crafts {
   color: blue;
 }
 
+/*Subheader 2 font and color definition*/
 h2 {
   font-family: Helvetica;
   font-size: 32px;
@@ -22,34 +25,40 @@ h2 {
   color: white;
 }
 
+/*Subheader 3 font definition*/
 h3 {
   font-family: Helvetica;
   font-size: 20px;
   font-weight: bold;
 }
 
+/*Subheader h2 brushes background definition*/
 .brushes {
   background-size: contain;
   background-color: mediumspringgreen;
   background-position: left;
 }
 
+/*Text font*/
 p {
   font-family: Helvetica;
 }
 
+/*Highlighted text font*/
 .blue {
   font-family: Helvetica;
   font-weight: bold;
   color: blue;
 }
 
+/*Subheader h2 frames background definition*/
 .frames {
   background-size: contain;
   background-color: lightcoral;
   background-position: left;
 }
 
+/*Subheader h2 paint background definition*/
 .paint {
   background-size: contain;
   background-color: skyblue;
